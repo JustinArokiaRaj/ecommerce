@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+        <template name="Mens Wear Page" id="website_mens_wear">
+            <t t-call="website.layout">
+                <div class="page-wrapper oe_structure">
+                <section>
+                    <h1> This is Men's Wear Page</h1>
+                </section>
+                </div>
+            </t>
+        </template>
+
+         <record id="homepage_mens_wear" model="website.page">
+               <field name="name">Men's Wear</field>
+               <field name="website_published">True</field>
+               <field name="url">/mens</field>
+               <field name="view_id" ref="website_mens_wear"/>
+           </record>
+
+           <record id="mens_wear_page_link" model="website.menu">
+               <field name="name">Men's Wear</field>
+               <field name="page_id" ref="homepage_mens_wear"/>
+               <field name="parent_id" ref="website.main_menu" />
+               <field name="sequence" type="int">2</field>
+          </record>
+</odoo>

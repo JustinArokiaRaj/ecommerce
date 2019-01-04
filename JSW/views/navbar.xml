@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+	<template id="custom_header" inherit_id="website.layout" name="Custom Header">
+
+	<xpath expr="//div[@id='wrapwrap']/header" position="attributes">
+    <attribute name="id">my_header</attribute>
+  </xpath>
+
+  <!-- Add an element after the top menu  -->
+
+  <xpath expr="//div[@id='wrapwrap']/header/div" position="replace">
+
+
+<!-- =================================== Header Code Start Here ========================= -->
+
+<header>
+                    
+      <!-- <div active="True" id="row1">
+        <div class="container" id="mid_info_price_lang">
+          <div class="row">
+
+            <div class="col-md-4 col-sm-3 hidden-xs" id="col-row1-left">
+            </div>
+            <div class="col-md-2 col-sm-2" id="col-row1-center" style="display:none;">
+
+            </div>
+            <div class="col-md-7 col-xs-12 pull-right pad0 col-sm-7 mt8" id="col-row1-right">
+
+            <div class=" pull-right" id="currency">
+          
+  
+  <div class="dropdown btn-group">
+    
+    <a href="#" class="dropdown-toggle btn btn-default" data-toggle="dropdown">
+      USD
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+      <li>
+        <a href="index.html"><span class="switcher_pricelist" data-pl_id="3">EUR</span></a>
+      </li><li>
+        <a href="index.html"><span class="switcher_pricelist" data-pl_id="1">USD</span></a>
+      </li>
+    </ul>
+  </div>
+
+        </div>
+      <div class=" pull-right" id="language_flag">
+          <div>
+            
+      
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          
+            
+              <span>English</span>
+            
+          
+            
+          
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu" style="min-width: 80px;">
+          
+            
+          
+            
+              <li style="min-width: 50px;">
+                <a href="fr_CH/page/homepage.html" class="js_change_lang" data-lang="fr_CH" data-lang_dir="ltr">
+                  <span>French (CH) / Français (CH)</span>
+                </a>
+              </li>
+            
+          
+        </ul>
+      </li>
+    
+    
+          </div>
+        </div>
+        <div class="text-center" id="user_access">
+
+          
+          
+
+            <div class="col-md-1 col-sm-2 hidden-xs display-header  pad05" id="user_sign_in" groups="base.group_public">
+              <a></a>
+            </div>
+
+            <div class="col-md-3 col-sm-2 display-header  pad05" id="user_sign_in" groups="base.group_public">
+              <a href="fr_CH/web/login.html">Sign in</a>
+            </div>
+            <div class="col-md-2 col-sm-2 display-header  pad05" id="user_register">
+              <a href="fr_CH/web/signup.html">Register</a>
+            </div>
+            <div class="col-md-2 col-sm-2 display-header  pad05" id="user_account">
+              <a href="fr_CH/web/loginb27f.html">Account</a>
+            </div>
+          
+        </div>
+      </div>
+          </div>
+
+        </div>
+      </div>-->
+      <!-- <div active="True" id="row2" style="display:none;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4" id="col-row2-left">
+
+            </div>
+            <div class="col-md-3" id="col-row2-center">
+              </div>
+            <div class="col-md-5" id="col-row2-right">
+
+            </div>
+          </div>
+        </div>
+      </div> -->
+    
+      <div class="navbar navbar-default yamm
+          navbar-static-top">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a href="#" class="navbar-brand logo mt8 mb8">
+          <img src="/JSW/static/src/images/logo.png" class="img img-responsive" alt="Logo of YourCompany" title="YourCompany"/>
+        </a>
+      </div>
+                            <div class="collapse navbar-collapse navbar-top-collapse">
+                                <ul class="nav navbar-nav navbar-right cart" id="nav_right">
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="fa fa-search"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <div>
+                <li class="navbar-form form-group">
+                  
+                  
+                    <form action="" method="get">
+
+                      
+                      
+    <div class="input-group">
+        <div class="oe_search">
+            <input type="text" name="search" class="search-query form-control oe_search_box" placeholder="Search..."/>
+            <span class="fa fa-remove fa-lg oe_search_clear"></span>
+        </div>
+        <span class="input-group-btn">
+           <button type="submit" class="btn btn-default oe_search_button"><i class="fa fa-search"></i></button>
+        </span>
+    </div>
+
+                    </form>
+                  
+                </li>
+              </div>
+            </ul>
+          </li>
+
+        
+        <li class="hidden" id="nav-cart">
+          <a href="fr_CH/shop/cart.html">
+            <i class="fa fa-shopping-cart"></i>
+            <sup class="my_cart_quantity label label-primary"></sup>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right" id="top_menu">
+        <li class="active">
+          <a href="/home" class="dropdown-toggle">
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="/shop" class="dropdown-toggle">
+            <span>Shop</span>
+          </a>
+        </li>
+        <li>
+          <a href="/contact" class="dropdown-toggle">
+            <span>Contact Us</span>
+          </a>
+        </li>
+        <li class="dropdown yamm-fw">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <span>Groceries</span>
+            <span class="caret"></span>
+          </a>        
+            <ul class="dropdown-menu menu_center_window" role="menu">
+              <div class="yamm-content"><div id="groceries">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-2 col-sm-4">
+                  <h2><a href="#">Groceries &amp; Staples</a></h2>
+                  <ul class="">
+                    <li>
+                      <a href="#" title="">- Atta/Flour</a>
+                    </li>
+                    <li>
+                      <a href="#" title="">- Dals &amp; Pulses</a>
+                    </li>
+                    <li>
+                      <a href="#" title="">- Dry Fruits</a>
+                    </li>
+                    <li>
+                      <a href="#" title="">- Rice</a>
+                    </li>                   
+                  </ul>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                  <h2><a href="#">Spices</a></h2>
+                  <ul class="bullet">
+                    <li>
+                      <a href="#" title="Accessories">- Oiles &amp; Ghess</a>
+                    </li>
+                    <li>
+                      <a href="#" title=" Hats And Gloves">- Sale </a>
+                    </li>
+                    <li>
+                      <a href="#" title="Lifestyle">- Seasonings</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Dress">- Olive Oil</a>
+                    </li>                   
+                  </ul>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                  <h2><a href="#">Instant Meals</a></h2>
+                  <ul class="">
+                    <li>
+                      <a href="#" title="">- Dips</a>
+                    </li>
+                    <li>
+                      <a href="#" title=" ">- Dressings</a>
+                    </li>
+                    <li>
+                      <a href="#" title=" ">- Jams/Butter</a>
+                    </li>
+                    <li>
+                      <a href="#" title="  ">- Paste/Purees</a>
+                    </li>                   
+                  </ul>               
+                </div>
+                
+                <div class="col-md-2 col-sm-4">
+                  <h2><a href="#">Personal Care</a></h2>
+                  <ul class="">
+                    <li>
+                      <a href="#" title="">- Body Care</a>
+                    </li>
+                    <li>
+                      <a href="#" title=" ">- Perfumes</a>
+                    </li>
+                    <li>
+                      <a href="#" title=" ">- Deo</a>
+                    </li>
+                    <li>
+                      <a href="#" title="  ">- Hair Care</a>
+                    </li> 
+                    
+                    <li>
+                      <a href="#" title="  ">- Kajal</a>
+                    </li>                   
+                  </ul>       
+                  
+                </div>
+                
+                <div class="col-md-2 col-sm-4">
+                  <h2><a href="#">Baby Product</a></h2>
+                  <ul class="">
+                    <li>
+                      <a href="#" title="">- Baby food</a>
+                    </li>
+                    <li>
+                      <a href="#" title=" ">- Baby Oil</a>
+                    </li>
+                    <li>
+                      <a href="#" title=" ">- Baby Soap</a>
+                    </li>
+                    <li>
+                      <a href="#" title="  ">- Diaper/wipes</a>
+                    </li> 
+                    
+                    <li>
+                      <a href="#" title="  ">- Baby Shampoo</a>
+                    </li>                   
+                  </ul>               
+                </div>
+                
+                <div class="col-md-2 col-sm-4">
+                  <h2><a href="#">Beverages</a></h2>
+                  <ul class="">
+                    <li>
+                      <a href="#" title="">- Packed Mineral water</a>
+                    </li>
+                    <li>
+                      <a href="#" title=" ">- Tea &amp; Coffee</a>
+                    </li>
+                    <li>
+                      <a href="#" title=" ">- Soft Drinks</a>
+                    </li>
+                    <li>
+                      <a href="#" title="  ">- Fruit Juice</a>
+                    </li> 
+                    
+                    <li>
+                      <a href="#" title="  ">- Drinks</a>
+                    </li>                   
+                  </ul>               
+                </div>
+                <div class="col-md-12 col-sm-12 last-block">
+                  <div class="row">
+                    <img src="/JSW/static/src/images/Grocery%20%26%20Staples.png" class="img img-responsive" style="margin:0px auto;" />
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+       
+      </div>
+            </ul>
+          
+        </li>
+        <li>
+          <a href="/contact" class="dropdown-toggle">
+            <span>Contact us</span>
+          </a>
+        </li>
+      </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+<!-- ====================================== Bargains Section  Code End Here ================================  -->
+  </xpath>
+</template>
+</odoo>

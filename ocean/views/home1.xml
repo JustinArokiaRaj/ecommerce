@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+        <template name="Home Page" id="website.homepage">
+            <t t-call="website.layout">
+                <div class="page-wrapper oe_structure">
+                    <section class="as-animated-slider">
+                        <div id="carousel-1" class="carousel slide text-center banner indicators-right"
+                             data-ride="carousel" data-arrow="none">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-1" data-slide-to="1"></li>
+                                <li data-target="#carousel-1" data-slide-to="2"></li>
+                                <li data-target="#carousel-1" data-slide-to="3"></li>
+                                <li data-target="#carousel-1" data-slide-to="4"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner carousel-ocean" role="listbox">
+                                <div class="item active">
+                                    <div class="slide-item"
+                                         style="background-image: url(/ocean/static/src/images/1.jpg);">
+                                        <div class="slider-text">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-offset-3 carousel-text">
+                                                    	<h3>The Biggest <span>Sale</span></h3>
+                                                        <p>Special for today</p>
+                                                        <!-- <a href="#" class="btn btn-default btn-sm btn-outline white btn-ocean">
+                                                            Shop Now
+                                                        </a> -->
+                                                        <a class="hvr-outline-out button2 btn-ocean" href="#">Shop Now </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="slide-item"
+                                         style="background-image: url(/ocean/static/src/images/2.jpg);">
+                                        <div class="slider-text">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-offset-3 carousel-text">
+                                                        <!-- <a href="#" class="btn btn-default btn-sm btn-outline white btn-ocean">
+                                                            Shop Now
+                                                        </a> -->
+                                                        <h3>Summer <span>Collection</span></h3>
+                                                        <p>New Arrivals On Sale</p>
+                                                        <a class="hvr-outline-out button2 btn-ocean" href="#">Shop Now </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="slide-item"
+                                         style="background-image: url(/ocean/static/src/images/3.jpg);">
+                                        <div class="slider-text">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-offset-3 carousel-text">
+                                                        <h3>The Biggest <span>Sale</span></h3>
+                                                        <p>Special for today</p>
+                                                        <a class="hvr-outline-out button2 btn-ocean" href="#">Shop Now </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="slide-item"
+                                         style="background-image: url(/ocean/static/src/images/4.jpg);">
+                                        <div class="slider-text">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-offset-3 carousel-text">
+                                                        <h3>Summer <span>Collection</span></h3>
+                                                        <p>New Arrivals On Sale</p>
+                                                        <a class="hvr-outline-out button2 btn-ocean" href="#">Shop Now </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="slide-item"
+                                         style="background-image: url(/ocean/static/src/images/5.jpg);">
+                                        <div class="slider-text">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-offset-3 carousel-text">
+                                                        <h3>The Biggest <span>Sale</span></h3>
+                                                        <p>Special for today</p>
+                                                        <a class="hvr-outline-out button2 btn-ocean" href="#">Shop Now </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="banner_bottom_agile_info">
+                            <div class="container">
+                                <div class="banner_bottom_agile_info_inner_w3ls">
+                                       <div class="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
+                                            <figure class="effect-roxy">
+                                                <img src="/ocean/static/src/images/bottom1.jpg" alt=" " class="img-responsive"/>
+                                                <figcaption>
+                                                    <h3><span>F</span>all Ahead</h3>
+                                                    <p>New Arrivals</p>
+                                                </figcaption>           
+                                            </figure>
+                                        </div>
+                                         <div class="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
+                                            <figure class="effect-roxy">
+                                                <img src="/ocean/static/src/images/bottom2.jpg" alt=" " class="img-responsive"/>
+                                                <figcaption>
+                                                    <h3><span>F</span>all Ahead</h3>
+                                                    <p>New Arrivals</p>
+                                                </figcaption>           
+                                            </figure>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                </div> 
+                             </div> 
+                        </div>
+                    </section>
+                    <section>
+                        <div class="schedule-bottom">
+                            <div class="col-md-6 agileinfo_schedule_bottom_left">
+                                <img src="/ocean/static/src/images/mid.jpg" alt=" " class="img-responsive"/>
+                            </div>
+                            <div class="col-md-6 agileits_schedule_bottom_right">
+                                <div class="w3ls_schedule_bottom_right_grid">
+                                    <h3>Save up to <span>50%</span> in this week</h3>
+                                    <p>Suspendisse varius turpis efficitur erat laoreet dapibus. 
+                                        Mauris sollicitudin scelerisque commodo.Nunc dapibus mauris sed metus finibus posuere.</p>
+                                    <div class="col-md-4 w3l_schedule_bottom_right_grid1">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                                        <h4>Customers</h4>
+                                        <h5 class="counter">653</h5>
+                                    </div>
+                                    <div class="col-md-4 w3l_schedule_bottom_right_grid1">
+                                        <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                        <h4>Events</h4>
+                                        <h5 class="counter">823</h5>
+                                    </div>
+                                    <div class="col-md-4 w3l_schedule_bottom_right_grid1">
+                                        <i class="fa fa-shield" aria-hidden="true"></i>
+                                        <h4>Awards</h4>
+                                        <h5 class="counter">45</h5>
+                                    </div>
+                                    <div class="clearfix"> </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="banner-bootom-w3-agileits">
+                        <div class="container">
+                            <h3 class="wthree_text_info">What's <span>Trending</span></h3>
+                        
+                            <div class="col-md-5 bb-grids bb-left-agileits-w3layouts">
+                                <a href="womens.html">
+                                   <div class="bb-left-agileits-w3layouts-inner grid">
+                                        <figure class="effect-roxy">
+                                                <img src="/ocean/static/src/images/bb1.jpg" alt=" " class="img-responsive"/>
+                                                <figcaption>
+                                                    <h3><span>S</span>ale </h3>
+                                                    <p>Upto 55%</p>
+                                                </figcaption>           
+                                            </figure>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-7 bb-grids bb-middle-agileits-w3layouts">
+                                  <a href="mens.html">
+                                   <div class="bb-middle-agileits-w3layouts grid">
+                                           <figure class="effect-roxy">
+                                                <img src="/ocean/static/src/images/bottom3.jpg" alt=" " class="img-responsive"/>
+                                                <figcaption>
+                                                    <h3><span>S</span>ale </h3>
+                                                    <p>Upto 55%</p>
+                                                </figcaption>           
+                                            </figure>
+                                    </div>
+                                    </a>
+                                    <a href="mens.html">
+                                  <div class="bb-middle-agileits-w3layouts forth grid">
+                                            <figure class="effect-roxy">
+                                                <img src="/ocean/static/src/images/bottom4.jpg" alt=" " class="img-responsive"/>
+                                                <figcaption>
+                                                    <h3><span>S</span>ale </h3>
+                                                    <p>Upto 65%</p>
+                                                </figcaption>       
+                                            </figure>
+                                        </div>
+                                        </a>
+                            <div class="clearfix"></div>
+                        </div>
+                        </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="agile_last_double_sectionw3ls">
+                            <div class="col-md-6 multi-gd-img multi-gd-text ">
+                                    <img src="/ocean/static/src/images/bot_1.jpg" alt=" "/><h4>Flat <span>50%</span> offer</h4>
+                                    
+                            </div>
+                             <div class="col-md-6 multi-gd-img multi-gd-text ">
+                                    <img src="/ocean/static/src/images/bot_2.jpg" alt=" "/><h4>Flat <span>50%</span> offer</h4>
+                            </div>
+                            <div class="clearfix"></div>
+                       </div>
+                    </section>
+                    <section>
+                        <div class="new_arrivals_agile_w3ls_info"> 
+                            <div class="container">
+                                <h3 class="wthree_text_info">New <span>Arrivals</span></h3>     
+                                    <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+                                            <ul class="resp-tabs-list">
+                                                <li class="resp-tab-item resp-tab-active" aria-controls="tab_item-0" role="tab"> Men's</li>
+                                                <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"> Women's</li>
+                                                <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"> Bags</li>
+                                                <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"> Footwear</li>
+                                            </ul>
+                                        <div class="resp-tabs-container">
+                                        <!--/tab_one-->
+                                            <h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span> Men's</h2><div class="tab1 resp-tab-content resp-tab-content-active" style="display:block" aria-labelledby="tab_item-0">
+                                                <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/m1.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/m1.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Formal Blue Shirt</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$45.99</span>
+                                                                <del>$69.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Formal Blue Shirt"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/m2.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/m2.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Gabi Full Sleeve Sweatshirt</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$45.99</span>
+                                                                <del>$69.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Sweatshirt"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/m3.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/m3.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Dark Blue Track Pants</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$80.99</span>
+                                                                <del>$89.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Dark Blue Track Pants"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/m4.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/m4.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Round Neck Black T-Shirt</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$190.99</span>
+                                                                <del>$159.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Black T-Shirt"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/m5.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/m5.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Men's Black Jeans</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$60.99</span>
+                                                                <del>$90.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Men's Black Jeans"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                    <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/m7.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/m7.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Analog Watch</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$160.99</span>
+                                                                <del>$290.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Analog Watch"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                    <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/m6.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/m6.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Reversible Belt</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$30.99</span>
+                                                                <del>$50.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Reversible Belt"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                    <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/m8.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/m8.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Party Men's Blazer</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$260.99</span>
+                                                                <del>$390.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Party Men's Blazer"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span> Women's</h2><div class="tab2 resp-tab-content" aria-labelledby="tab_item-1">
+                                                 <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/w1.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/w1.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">A-line Black Skirt</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$130.99</span>
+                                                                <del>$189.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="A-line Black Skirt"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/w2.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/w2.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Sleeveless Solid Blue Top</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$140.99</span>
+                                                                <del>$189.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Sleeveless Solid Blue Top"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/w3.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/w3.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Skinny Jeans</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$150.99</span>
+                                                                <del>$189.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Skinny Jeans "/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/w4.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/w4.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Black Basic Shorts</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$120.99</span>
+                                                                <del>$189.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Black Basic Shorts"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/w5.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/w5.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Pink Track Pants</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$220.99</span>
+                                                                <del>$389.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Pink Track Pants"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/w6.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/w6.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Analog Watch</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$320.99</span>
+                                                                <del>$489.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Analog Watch"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/w7.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/w7.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Ankle Length Socks</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$100.99</span>
+                                                                <del>$159.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Ankle Length Socks"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                    <div class="col-md-3 product-men">
+                                                    <div class="men-pro-item simpleCart_shelfItem">
+                                                        <div class="men-thumb-item">
+                                                            <img src="/ocean/static/src/images/w8.jpg" alt="" class="pro-image-front"/>
+                                                            <img src="/ocean/static/src/images/w8.jpg" alt="" class="pro-image-back"/>
+                                                                <div class="men-cart-pro">
+                                                                    <div class="inner-men-cart-pro">
+                                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="product-new-top">New</span>
+                                                                
+                                                        </div>
+                                                        <div class="item-info-product ">
+                                                            <h4><a href="single.html">Reebok Women's Tights</a></h4>
+                                                            <div class="info-product-price">
+                                                                <span class="item_price">$130.99</span>
+                                                                <del>$169.71</del>
+                                                            </div>
+                                                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                                                                                        <input type="hidden" name="cmd" value="_cart"/>
+                                                                                        <input type="hidden" name="add" value="1"/>
+                                                                                        <input type="hidden" name="business" value=" "/>
+                                                                                        <input type="hidden" name="item_name" value="Reebok Women's Tights"/>
+                                                                                        <input type="hidden" name="amount" value="30.99"/>
+                                                                                        <input type="hidden" name="discount_amount" value="1.00"/>
+                                                                                        <input type="hidden" name="currency_code" value="USD"/>
+                                                                                        <input type="hidden" name="return" value=" "/>
+                                                                                        <input type="hidden" name="cancel_return" value=" "/>
+                                                                                        <input type="submit" name="submit" value="Add to cart" class="button"/>
+                                                                            </div>
+                                                                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sale-w3ls">
+                            <div class="container">
+                                <h6>We Offer Flat <span>40%</span> Discount</h6>
+                 
+                                <a class="hvr-outline-out button2" href="#">Shop Now </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="coupons">
+                                <div class="coupons-grids text-center">
+                                    <div class="w3layouts_mail_grid">
+                                        <div class="col-md-3 w3layouts_mail_grid_left">
+                                            <div class="w3layouts_mail_grid_left1 hvr-radial-out">
+                                                <i class="fa fa-truck" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="w3layouts_mail_grid_left2">
+                                                <h3>FREE SHIPPING</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 w3layouts_mail_grid_left">
+                                            <div class="w3layouts_mail_grid_left1 hvr-radial-out">
+                                                <i class="fa fa-headphones" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="w3layouts_mail_grid_left2">
+                                                <h3>24/7 SUPPORT</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 w3layouts_mail_grid_left">
+                                            <div class="w3layouts_mail_grid_left1 hvr-radial-out">
+                                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="w3layouts_mail_grid_left2">
+                                                <h3>MONEY BACK GUARANTEE</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                            </div>
+                                        </div>
+                                            <div class="col-md-3 w3layouts_mail_grid_left">
+                                            <div class="w3layouts_mail_grid_left1 hvr-radial-out">
+                                                <i class="fa fa-gift" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="w3layouts_mail_grid_left2">
+                                                <h3>FREE GIFT COUPONS</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+
+                                </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="footer">
+                            <div class="footer_agile_inner_info_w3l">
+                                <div class="col-md-3 footer-left">
+                                    <h2><a href="#"><span>E</span>lite Shoppy </a></h2>
+                                    <p>An excellent firm with dynamic problem solvers that have the ability to creatively solve system development challenges. A pleasure to work with and will do business again!</p>
+                                    <ul class="social-nav model-3d-0 footer-social w3_agile_social two">
+                                                                                    <li><a href="#" class="facebook">
+                                                                                          <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                                                                                          <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+                                                                                    <li><a href="#" class="twitter"> 
+                                                                                          <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                                                                                          <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+                                                                                    <li><a href="#" class="instagram">
+                                                                                          <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                                                                                          <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
+                                                                                    <li><a href="#" class="pinterest">
+                                                                                          <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                                                                                          <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
+                                                                                </ul>
+                                </div>
+                                <div class="col-md-9 footer-right">
+                                    <div class="sign-grds">
+                                        <div class="col-md-4 sign-gd">
+                                            <h4>Our <span>Information</span> </h4>
+                                            <ul>
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">Men's Wear</a></li>
+                                                <li><a href="#">Women's wear</a></li>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Short Codes</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="col-md-5 sign-gd-two">
+                                            <h4>Store <span>Information</span></h4>
+                                            <div class="w3-address">
+                                                <div class="w3-address-grid">
+                                                    <div class="w3-address-left">
+                                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="w3-address-right">
+                                                        <h6>Phone Number</h6>
+                                                        <p>+91 894 043 1702</p>
+                                                    </div>
+                                                    <div class="clearfix"> </div>
+                                                </div>
+                                                <div class="w3-address-grid">
+                                                    <div class="w3-address-left">
+                                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="w3-address-right">
+                                                        <h6>Email Address</h6>
+                                                        <p>Email :<a href="mailto:justin@aorborc.com"> justin@aorborc.com</a></p>
+                                                    </div>
+                                                    <div class="clearfix"> </div>
+                                                </div>
+                                                <div class="w3-address-grid">
+                                                    <div class="w3-address-left">
+                                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="w3-address-right">
+                                                        <h6>Location</h6>
+                                                        <p>#340 B, Shyamala Towers, 3rd Floor, #136 Arcot Rd, Vadapalani, Chennai, Tamil Nadu 600093</p>
+                                                    </div>
+                                                    <div class="clearfix"> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 sign-gd flickr-post">
+                                            <h4>Flickr <span>Posts</span></h4>
+                                            <ul>
+                                                <li><a href="#"><img src="/ocean/static/src/images/t1.jpg" alt=" " class="img-responsive"/></a></li>
+                                                <li><a href="#"><img src="/ocean/static/src/images/t2.jpg" alt=" " class="img-responsive"/></a></li>
+                                                <li><a href="#"><img src="/ocean/static/src/images/t3.jpg" alt=" " class="img-responsive"/></a></li>
+                                                <li><a href="#"><img src="/ocean/static/src/images/t4.jpg" alt=" " class="img-responsive"/></a></li>
+                                                <li><a href="#"><img src="/ocean/static/src/images/t1.jpg" alt=" " class="img-responsive"/></a></li>
+                                                <li><a href="#"><img src="/ocean/static/src/images/t2.jpg" alt=" " class="img-responsive"/></a></li>
+                                                <li><a href="#"><img src="/ocean/static/src/images/t3.jpg" alt=" " class="img-responsive"/></a></li>
+                                                <li><a href="#"><img src="/ocean/static/src/images/t2.jpg" alt=" " class="img-responsive"/></a></li>
+                                                <li><a href="#"><img src="/ocean/static/src/images/t4.jpg" alt=" " class="img-responsive"/></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                    <div class="agile_newsletter_footer">
+                                            <div class="col-sm-6 newsleft">
+                                        <h3>SIGN UP FOR NEWSLETTER !</h3>
+                                    </div>
+                                    <div class="col-sm-6 newsright">
+                                            <input type="email" placeholder="Enter your email..." name="email" required=""/>
+                                            <input type="submit" value="Submit"/>
+                                    </div>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </t>
+        </template>
+</odoo>

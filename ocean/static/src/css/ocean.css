@@ -1,0 +1,94 @@
+.sec1 {
+	color: blue;
+}.sec2 {
+	color: red;
+}
+.navbar{
+	background: black !important;
+	width:100% !important;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.carousel-ocean .slide-item{
+	height: 400px;
+}
+.navbar-default .navbar-nav > li > a{
+	color: white !important;
+	padding: 26px 16px !important;
+	border-bottom: 5px solid black !important;
+}
+.navbar-brand{
+	display: none !important;
+}
+.navbar-top-collapse{
+	float:left !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	border-bottom: 5px solid white !important;
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+	border-bottom: 5px solid white !important;
+}
+.btn-ocean{
+	margin-top: 50px !important;
+	padding: 8px 20px !important;
+	color:white !important;
+	font-weight: bolder !important;
+	background: #2fdab8 !important;
+}
+.top_logo_agile_bag{
+	    margin-top: 6px !important;
+	    display: none !important;
+}
+.divider{
+	display: none !important;
+}
+#footer{
+	display: none !important;
+}
+.bg-white{
+	display: none !important;
+}
+.carousel-text p {
+    letter-spacing: 12px !important;
+    font-size: 1.2em !important;
+    font-weight: 600 !important;
+    color: #ffb900 !important;
+    margin-top: 1em !important;
+}
+.carousel-text h3 {
+    font-size: 3em !important;
+    font-weight: 300 !important;
+    letter-spacing: 14px !important;
+    text-transform: uppercase !important;
+    margin-top: 51px !important;
+    color: #fff;
+}
+.carousel-text h3 span {
+    font-weight: 800 !important;
+    color: #2fdab8 !important;
+}
+.team-w3agile:hover{
+	
+}
+/*[data-oe-field="name"]
+{  
+   display:none;
+}*/
+
+/*.btn-ocean {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    -webkit-transform: translateZ(0) !important;
+    transform: translateZ(0) !important;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    position: relative !important;
+    background: #2fdab8 !important;
+    margin-top: 100px !important;
+	padding: 8px 20px !important;
+}*/

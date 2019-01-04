@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+		<template name="Home 1" id="" page="True">
+				<div id="page">
+					<h3>Employee Details</h3>
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Email</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Justin</td>
+								<td>Missed One</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+		</template>
+</odoo>

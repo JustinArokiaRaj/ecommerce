@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <template id="theme_ocean_styles" name="Theme Ocean" inherit_id="website.assets_frontend">
+      <xpath expr="." position="inside">
+           <link href="/ocean/static/src/css/ocean.css" rel="stylesheet" type="text/css"/>
+           <link href="/ocean/static/src/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+           <link href="/ocean/static/src/css/easy-responsive-tabs.css" rel="stylesheet" type="text/css"/>
+           <link href="/ocean/static/src/css/style.css" rel="stylesheet" type="text/css"/>
+           <link href="/ocean/static/src/css/team.css" rel="stylesheet" type="text/css"/>
+           <script type="text/javascript"
+                    src="/ocean/static/src/js/ocean.js"></script>
+          <script type="text/javascript"
+                    src="/ocean/static/src/js/popper.min.js"></script>
+          <script type="text/javascript"
+                    src="/ocean/static/src/js/data_slider.js"></script>
+          <script type="text/javascript"
+                    src="/ocean/static/src/js/easy-responsive-tabs.js"></script>
+           <!--  <script type="text/javascript"
+                    src="/ocean/static/src/js/jquery.min.js"></script> -->
+            <!-- <script type="text/javascript"
+                    src="/ocean/static/src/js/popper.min.js"></script>
+            <script type="text/javascript"
+                    src="/ocean/static/src/js/bootstrap.min.js"></script> -->
+      </xpath>
+    </template>
+</odoo>
